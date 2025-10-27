@@ -240,8 +240,60 @@ nav button:hover {
     border-radius: 8px
 }
 
+/* Footer styling */
 #main-footer {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 50px;
+    background-color: #15545c;
+    /* Dark background */
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+}
+
+.footer-text h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer-text span {
+    color: #ff4c1e;
+    /* Highlight your name */
+}
+
+.footer-text p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.footer-icons a img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    #main-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin-top: 15px;
+    }
 }
