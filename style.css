@@ -216,7 +216,7 @@ nav button:hover {
 .support-section {
     width: 90%;
     margin: 50px auto;
-    background: url(/assets/handshake.jpg) center/cover no-repeat;
+    background: url(./assets/handshake.jpg) center/cover no-repeat;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 50px 20px;
