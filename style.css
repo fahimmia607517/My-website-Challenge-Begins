@@ -38,7 +38,7 @@ nav button:hover {
 .banner-Design {
     width: 100%;
     min-height: 500px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
